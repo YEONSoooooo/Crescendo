@@ -42,5 +42,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include("myapp.main.urls")),
+    path('accounts/', include('myapp.accounts.urls')),
 ]
 
