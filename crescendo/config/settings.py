@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'myapp.main',
     'myapp.pybo',
     'myapp.accounts',
+    'myapp.selects',
 ]
 
 MIDDLEWARE = [
